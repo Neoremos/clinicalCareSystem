@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CCS | Home</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            body {
+                background-color: lightgreen;
+            }
+
+            .login {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh
+            }
+            .credentials {
+                box-shadow: 10px 10px 4px #808080;
+                background-color: black;
+                color: white;
+                height: 300px;
+                width: 500px;
+            }
+
+            .userpass {
+                padding-left: 160px;
+                
+            }
+
+            .userpass input {
+                border-radius: 7px;
+                height: 30px;
+                margin: 10px 0;
+            }
+
+
+            .credentials h1 {
+                padding: 20px 0;
+                text-align: center;
+            }
+
+            .submit {
+                padding-left: 160px;
+            }
+
+            .submit input {
+                background-color: red;
+                color: white;
+                text-align: center;
+                height: 50px;
+                width: 70px;
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="login">
+
+            <div class="credentials">
+
+                <h1>Clinical Care System</h1>
+
+                <div class="userpass">
+
+                    <label for="username">Username: <br></label> <input type="username" name="username" size="20" maxlength="10" required />
+                    
+                    <br>
+                    
+                    <label for="password">Password: <br></label> <input type="password" name="password" size="20" maxlength="10" required />
+                
+                </div>
+                <br>
+
+                <div class="submit">
+                    <a href="patient.html" target="_blank"><input class="button" type="submit" value="Submit" ></a>
+                </div>
+            
+            </div>
+
+        </div>
+    </body>
+
+</html>
